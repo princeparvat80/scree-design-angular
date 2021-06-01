@@ -8,6 +8,7 @@ import { CandidateComponent } from './candidate/candidate.component';
 import { BrowseJobsComponent } from './browse-jobs/browse-jobs.component';
 import { ManageJobsComponent } from './manage-jobs/manage-jobs.component';
 import { BrowseCategoriesComponent } from './browse-categories/browse-categories.component';
+import { EmployerComponent } from './employer/employer.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { BrowseCategoriesComponent } from './browse-categories/browse-categories
     CandidateComponent,
     BrowseJobsComponent,
     ManageJobsComponent,
-    BrowseCategoriesComponent
+    BrowseCategoriesComponent,
+    EmployerComponent
   ],
   imports: [
     BrowserModule,
