@@ -1,0 +1,66 @@
+.title {
+  display: flex;
+  flex-direction: column;
+  background: #f6f7f9;
+  height: 250px;
+  width: 1225px;
+  padding-top: 105px;
+  text-align: center;
+  border: none;
+  border-radius: 0;
+  background-image: url(https://www.mymove.com/wp-content/uploads/2020/07/KatarzynaBialasiewicz.jpg);
+  background-position: center top;
+  background-size: cover;
+  position: relative;
+}
+.title:before {
+  content: "";
+  /* background: rgba(48, 46, 46, 0.7); */
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  display: block;
+  top: 0;
+  left: 0;
+  z-index: 15;
+}
+/* .h2 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  -webkit-tap-highlight-color: rgba(233, 240, 245, 0);
+}
+
+.p {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+} */
+
+.fcontainer {
+  border: 2px solid white;
+  background-color: yellow;
+  height: 265px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.fitem {
+  background-color: blueviolet;
+  border: 5px;
+  margin: 20px;
+  width: 250px;
+  height: 220px;
+}
+
+a {
+  color: aliceblue;
+}
+a:hover {
+  color: aqua;
+}
+h2 {
+  color: white;
+}
+p {
+  color: white;
+}
