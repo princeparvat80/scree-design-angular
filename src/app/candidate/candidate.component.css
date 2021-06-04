@@ -1,0 +1,148 @@
+header{
+    
+    background-image: url('background_img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    padding: 50px;
+    height: 250px;
+
+}
+h1{
+    color: antiquewhite;
+    text-align:center;
+}
+
+h5{
+    color: antiquewhite;
+    text-align:center;
+
+}
+div.box{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+div.card{
+    
+   width: 250px;
+   text-align:center;
+   margin-top: 70px;
+   border:1px solid gray;
+   box-shadow: 0 4px 16px 0 gray;
+   align-items: center;
+}
+div.card.img{
+    width: 100%;
+}
+div.text{
+    padding: 10px;
+    background-color: #fff;
+}
+a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover{
+    color: rgb(25, 223, 25);
+}
+.btn{
+    background-color: rgb(207, 196, 196);
+    padding: 15px 32px;
+    width: 70%;
+    
+}
+.btn:hover{
+    background-color: rgb(41, 179, 41);
+    color: white;
+}
+img{
+    border-radius: 50%;
+}
+i{
+   border-radius: 50%; 
+   border-color: green;
+}
+.center {
+    text-align: center;
+  }
+  .pagination {
+    margin: 100px;
+    display: inline-block;
+  }
+   
+  .pagination a {
+    color: black;
+   
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+   
+  .pagination a.active {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 50%;
+    margin: 5px;
+  }
+   
+  .pagination a:hover:not(.active) {
+    background-color: #4caf50;
+    color: white;
+    border-radius: 50%;
+    margin: 5px;
+  }
+
+  .padd-bot-70 {
+    padding-bottom: 70px;
+}
+.padd-top-80 {
+    padding-top: 80px;
+}
+ 
+section {
+    padding: 4em 0 3em 0;
+    background: #ffffff;
+}
+ 
+.theme-btn {
+    background: #26ae61;
+    border: 2px solid #26ae61;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
+    -webkit-box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
+}
+.newsletter {
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    background-size: cover !important;
+    background-position: center !important;
+    
+}
+.newsletter-box .theme-btn {
+    background: #ffffff;
+    border: 2px solid transparent;
+    color: #26ae61 !important;
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ti-email:before {
+    content: "\e75a";
+}
+.theme-bg {
+    background: #26ae61;
+    color: #ffffff;
+}
+.btn-m {
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 500;
+}

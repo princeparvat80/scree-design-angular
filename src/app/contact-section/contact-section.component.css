@@ -1,0 +1,75 @@
+.page-title {
+    display: flex;
+    flex-direction: column;
+    background: #f6f7f9;
+    height: 250px;
+    padding-top: 105px;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    background-image: url("https://world-travel-guy-inboundhorizonsi.netdna-ssl.com/wp-content/uploads/2018/11/DSCF1483-1.jpg");
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+}
+.page-title:before {
+    content: "";
+    background: rgba(83, 83, 83, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    z-index: 15;
+}
+ /* .page-caption p a {
+    color: #ffffff;
+} */
+
+.padd-bot-70 {
+    padding-bottom: 70px;
+}
+.padd-top-80 {
+    padding-top: 80px;
+}
+
+section {
+    padding: 4em 0 3em 0;
+    background: #ffffff;
+}
+
+.theme-btn {
+    background: #26ae61;
+    border: 2px solid #26ae61;
+    color: #ffffff !important;
+    text-transform: uppercase;
+    border-radius: 4px;
+    font-weight: 500;
+    box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
+    -webkit-box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
+}
+.newsletter {
+    position: relative;
+    background-size: cover !important;
+    background-position: center !important;
+    
+}
+:after, :before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.ti-email:before {
+    content: "\e75a";
+}
+.theme-bg {
+    background: #26ae61;
+    color: #ffffff;
+}
+.btn-m {
+    padding: 12px 30px;
+    font-size: 15px;
+    font-weight: 500;
+}
+
