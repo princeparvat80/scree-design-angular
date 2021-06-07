@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { ContactSectionComponent } from './contact-section/contact-section.component';
 import { EmployerComponent } from './employer/employer.component';
+import { ProfilesettingComponent } from './profilesetting/profilesetting.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ContactSectionComponent,
-    EmployerComponent
+    EmployerComponent,
+    ProfilesettingComponent
   ],
   imports: [
     BrowserModule,
