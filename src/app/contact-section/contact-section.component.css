@@ -1,26 +1,28 @@
 .page-title {
     display: flex;
     flex-direction: column;
-    background: #f6f7f9;
+    /* background: #f6f7f9; */
     height: 250px;
+    color: white;
     padding-top: 105px;
     text-align: center;
     border: none;
     border-radius: 0;
-    background-image: url("https://world-travel-guy-inboundhorizonsi.netdna-ssl.com/wp-content/uploads/2018/11/DSCF1483-1.jpg");
+    background-image: url('christmas.jpg');
     background-position: center top;
     background-size: cover;
     position: relative;
 }
 .page-title:before {
     content: "";
-    background: rgba(83, 83, 83, 0.7);
+    /* background: rgba(83, 83, 83, 0.7); */
     position: absolute;
     height: 100%;
     width: 100%;
     display: block;
     top: 0;
     left: 0;
+    
     z-index: 15;
 }
  /* .page-caption p a {
@@ -55,6 +57,11 @@ section {
     background-position: center !important;
     
 }
+.newsletter-box .theme-btn {
+    background: #ffffff;
+    border: 2px solid transparent;
+    color: #26ae61 !important;
+}
 :after, :before {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -72,4 +79,32 @@ section {
     font-size: 15px;
     font-weight: 500;
 }
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.heading {
+    padding: 0px 0 35px 0;
+    text-align: center;
+}
+h2 {
+    color: white;
+    
+}
+a:active {
+    color: white;
 
+}
+
+a:hover{
+    color: green;
+}
+/* p {
+    color: white;
+} */
