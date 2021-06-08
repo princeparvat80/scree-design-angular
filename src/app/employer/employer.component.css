@@ -1,66 +1,138 @@
-.title {
-  display: flex;
-  flex-direction: column;
-  background: #f6f7f9;
+header {
+  background-image: url("office.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  /* border: 1px solid black; */
+  padding: 50px;
   height: 250px;
   width: 1225px;
-  padding-top: 105px;
+}
+h1 {
+  color: white;
   text-align: center;
-  border: none;
-  border-radius: 0;
-  background-image: url(https://www.mymove.com/wp-content/uploads/2020/07/KatarzynaBialasiewicz.jpg);
-  background-position: center top;
-  background-size: cover;
-  position: relative;
-}
-.title:before {
-  content: "";
-  /* background: rgba(48, 46, 46, 0.7); */
-  position: absolute;
-  height: 100%;
-  width: 100%;
-  display: block;
-  top: 0;
-  left: 0;
-  z-index: 15;
-}
-/* .h2 {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-  -webkit-tap-highlight-color: rgba(233, 240, 245, 0);
 }
 
-.p {
-  font-family: "Montserrat", sans-serif;
-  font-weight: 500;
-} */
-
-.fcontainer {
-  border: 2px solid white;
-  background-color: yellow;
-  height: 265px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
+h5 {
+  color: white;
+  text-align: center;
 }
-
-.fitem {
-  background-color: blueviolet;
-  border: 5px;
-  margin: 20px;
-  width: 250px;
-  height: 220px;
-}
-
 a {
-  color: aliceblue;
+  text-decoration: none;
+  color: white;
 }
 a:hover {
-  color: aqua;
+  color: rgb(25, 223, 25);
 }
-h2 {
+
+/* employee ROW */
+
+img {
+  border-radius: 50%;
+}
+
+div.box {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+div.card {
+  width: 250px;
+  text-align: center;
+  margin-top: 70px;
+  border: 1px solid gray;
+  box-shadow: 0 4px 16px 0 gray;
+  align-items: center;
+}
+.card.btn {
+  color: #26ae61;
+  width: 50%;
+  border-radius: 50%;
+}
+div.card.img {
+  width: 90%;
+  margin-top: 10px;
+}
+div.text {
+  padding: 10px;
+  margin: 8px;
+}
+a {
+  text-decoration: none;
   color: white;
 }
-p {
+a:hover {
+  color: rgb(18, 116, 18);
+}
+.btn {
+  background-color: rgb(214, 217, 218);
+  /* padding: 10px; */
+  width: 50%;
+  height: 15%;
+}
+.btn:hover {
+  background-color: rgb(118, 245, 118);
   color: white;
+}
+
+/* pagination */
+.center {
+  text-align: center;
+}
+.pagination {
+  margin: 100px;
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+.pagination a.active {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50%;
+  margin: 8px;
+}
+
+.pagination a:hover:not(.active) {
+  background-color: #4caf50;
+  color: white;
+  border-radius: 50%;
+  margin: 8px;
+}
+/* footerbox */
+
+.theme-bg {
+  background: #26ae61;
+  color: #ffffff;
+  text-align: center;
+}
+.btn-m {
+  padding: 12px 30px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.theme-btn {
+  background: #26ae61;
+  border: 2px solid #26ae61;
+  color: #ffffff !important;
+  text-transform: uppercase;
+  border-radius: 4px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
+  -webkit-box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
+}
+.ti-email:before {
+  content: "\e75a";
+}
+.newsletter-box .theme-btn {
+  background: #ffffff;
+  border: 2px solid transparent;
+  color: #26ae61 !important;
 }
