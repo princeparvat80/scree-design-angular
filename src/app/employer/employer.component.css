@@ -3,10 +3,11 @@ header {
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: 100% 100%;
-  /* border: 1px solid black; */
-  padding: 50px;
-  height: 250px;
+  border: 1px;
+  padding: 100px;
+  height: 300px;
   width: 1225px;
+  margin-top: 60px;
 }
 h1 {
   color: white;
@@ -33,6 +34,7 @@ img {
 
 div.box {
   width: 100%;
+  height: 90%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
@@ -40,6 +42,7 @@ div.box {
 
 div.card {
   width: 250px;
+  height: 90%;
   text-align: center;
   margin-top: 70px;
   border: 1px solid gray;
@@ -108,31 +111,55 @@ a:hover {
 }
 /* footerbox */
 
-.theme-bg {
-  background: #26ae61;
-  color: #ffffff;
+.section {
+  background-color: rgb(16, 117, 16);
+  padding: 100px;
+  color: white;
+}
+.section h1 {
+  color: white;
   text-align: center;
 }
-.btn-m {
-  padding: 12px 30px;
-  font-size: 15px;
-  font-weight: 500;
+.section p {
+  text-align: center;
 }
-.theme-btn {
-  background: #26ae61;
-  border: 2px solid #26ae61;
-  color: #ffffff !important;
-  text-transform: uppercase;
-  border-radius: 4px;
-  font-weight: 500;
-  box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
-  -webkit-box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
+.place input[type="text"] {
+  width: 50%;
+  align-items: center;
+  justify-content: center;
+  margin-left: 25%;
+  padding: 15px;
+  border-radius: 0.5rem;
+  border: 5px solid rgb(19, 230, 82);
 }
-.ti-email:before {
-  content: "\e75a";
+.place i {
+  position: absolute;
 }
-.newsletter-box .theme-btn {
-  background: #ffffff;
-  border: 2px solid transparent;
-  color: #26ae61 !important;
+.place i {
+  margin-left: 265px;
+  margin-top: 20px;
+  background-color: #b1e6b1;
+}
+.place1 {
+  position: center;
+}
+.icon {
+  padding: 10px;
+  min-width: 40px;
+}
+.subscribe button {
+  position: absolute;
+
+  background-color: rgb(16, 117, 16);
+  color: white;
+}
+/* heart */
+
+.card i {
+  border: 2px solid rgb(16, 117, 16);
+  background-color: rgb(16, 117, 16);
+  border-radius: 5rem;
+  margin-left: 160px;
+  margin-top: 20px;
+  border-width: 0.5rem;
 }
