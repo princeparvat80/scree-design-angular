@@ -5,22 +5,31 @@ header{
     background-attachment: fixed;
     background-size: 100% 100%;
     border: 1px solid black;
-    padding: 50px;
-    height: 250px;
+    padding: 110px;
+    height:250px;
 
+ 
 }
 h1{
     color: antiquewhite;
     text-align:center;
 }
-
+ 
 h5{
     color: antiquewhite;
     text-align:center;
-
+ 
+}
+h5 a:hover{
+    color: rgb(129, 189, 69);
+    text-decoration: none;
+}
+h5 a{
+    color: white;
 }
 div.box{
     width: 100%;
+    height: 90%;
     display: flex;
     flex-wrap: wrap;
     justify-content:space-around;
@@ -28,12 +37,14 @@ div.box{
 div.card{
     
    width: 250px;
+   height: 90%;
    text-align:center;
    margin-top: 70px;
-   border:1px solid gray;
-   box-shadow: 0 4px 16px 0 gray;
+   border:1px solid rgb(172, 219, 235);
+   box-shadow: 0 4px 16px 0 rgb(172, 219, 235);
    align-items: center;
 }
+
 div.card.img{
     width: 100%;
 }
@@ -41,13 +52,8 @@ div.text{
     padding: 10px;
     background-color: #fff;
 }
-a{
-    text-decoration: none;
-    color: antiquewhite;
-}
-a:hover{
-    color: rgb(25, 223, 25);
-}
+
+
 .btn{
     background-color: rgb(207, 196, 196);
     padding: 15px 32px;
@@ -61,10 +67,15 @@ a:hover{
 img{
     border-radius: 50%;
 }
-i{
-   border-radius: 50%; 
-   border-color: green;
-}
+.card i {
+    border: 2px solid rgb(16, 117, 16);
+    background-color: rgb(16, 117, 16);
+    border-radius: 5rem;
+    margin-left: 160px;
+    margin-top: 20px;
+    border-width: 0.5rem;
+  }
+  
 .center {
     text-align: center;
   }
@@ -94,55 +105,45 @@ i{
     margin: 5px;
   }
 
-  .padd-bot-70 {
-    padding-bottom: 70px;
-}
-.padd-top-80 {
-    padding-top: 80px;
-}
- 
-section {
-    padding: 4em 0 3em 0;
-    background: #ffffff;
-}
- 
-.theme-btn {
-    background: #26ae61;
-    border: 2px solid #26ae61;
-    color: #ffffff !important;
-    text-transform: uppercase;
-    border-radius: 4px;
-    font-weight: 500;
-    box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
-    -webkit-box-shadow: 0 4px 10px 0 rgb(41 128 185 / 20%);
-}
-.newsletter {
-    /* position: relative; */
-    display: flex;
-    flex-direction: column;
-    background-size: cover !important;
-    background-position: center !important;
-    
-}
-.newsletter-box .theme-btn {
-    background: #ffffff;
-    border: 2px solid transparent;
-    color: #26ae61 !important;
-}
-:after, :before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-.ti-email:before {
-    content: "\e75a";
-}
-.theme-bg {
-    background: #26ae61;
-    color: #ffffff;
-}
-.btn-m {
-    padding: 12px 30px;
-    font-size: 15px;
-    font-weight: 500;
-}
+  .section {
+    background-color: rgb(16, 117, 16);
+    padding: 100px;
+    color: white;
+  }
+  .section h1 {
+    color: white;
+    text-align: center;
+  }
+  .section p {
+    text-align: center;
+  }
+  .place input[type="text"] {
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    margin-left: 25%;
+    padding: 15px;
+    border-radius: 0.5rem;
+    border: 5px solid rgb(19, 230, 82);
+  }
+  .place i {
+    position: absolute;
+  }
+  .place i {
+    margin-left: 300px;
+    margin-top: 20px;
+    background-color: #b1e6b1;
+  }
+  .place1 {
+    position: center;
+  }
+  .icon {
+    padding: 10px;
+    min-width: 40px;
+  }
+  .subscribe button {
+    position: absolute;
+  
+    background-color: rgb(16, 117, 16);
+    color: white;
+  }
