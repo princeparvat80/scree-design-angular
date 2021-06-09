@@ -1,0 +1,291 @@
+header{
+    
+    background-image: url('background_img.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    border: 1px solid black;
+    padding: 110px;
+    height:250px;
+
+ 
+}
+h1{
+    color: antiquewhite;
+    text-align:center;
+}
+ 
+h5{
+    color: antiquewhite;
+    text-align:center;
+ 
+}
+h5 a:hover{
+    color: rgb(129, 189, 69);
+    text-decoration: none;
+}
+h5 a{
+    color: white;
+}
+/*a{
+    text-decoration: none;
+    color: antiquewhite;
+}
+a:hover{
+    color: rgb(25, 223, 25);
+}*/
+
+/*table{
+    border: 1px solid #ddd;
+    text-align: left;
+    position: relative;
+    left: 60px;
+}
+table{
+    border-collapse: collapse;
+    width: 90%;
+}
+th,td{
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+th{
+    background-color: rgb(214, 214, 236);
+    
+}*/
+
+.mng-jb {
+    display: inline-block;
+    margin-left: 6px;
+    position: relative;
+    bottom: 0;
+    font-size: 12px;
+    color: #26ae61;
+    background: rgba(38, 174, 97, 0.15);
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 4px;
+    text-align: center;}
+
+    table.table td a {
+        font-weight: 500;
+        display: inline-block;
+        text-decoration: none;}
+        a, a:active, a:focus, a:hover {
+            color: #334e6f;}
+
+            table.table td img.avatar-lg {
+                margin-right: 10px;
+                border-radius: 50px;
+                padding: 2px;
+                border: 2px solid rgba(0, 0, 0, 0.08);
+                width: 46px;
+                height: 46px;
+                object-fit: cover;
+            }
+            .avatar-lg {
+                width: 48px;
+                height: 48px;
+                line-height: 48px;
+                font-size: 1.125rem;
+            }
+            img {
+                vertical-align: middle;
+            }
+
+            .table-responsive {
+                min-height: .01%;
+                overflow-x: auto;
+            }
+            @media screen and (max-width: 767px){
+.table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    border: 1px solid #ddd;
+}}
+div {
+    display: block;
+}
+body {
+    background: #ffffff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    position: relative;
+    font-size: 14px;
+    color: #707f8c;
+    line-height: 24px;
+    overflow-x: hidden;
+}
+body{
+    background-color: #fff;
+}
+table {
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+thead {
+    display: table-header-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+table.table.table-lg tr th, table.table tr td {
+    border-color: #eaeff5;
+    padding: 10px 15px;
+    vertical-align: middle;
+    font-size: 14px;}
+    .table>thead>tr>th {
+    border-bottom: 2px solid #ddd;}
+    thead{
+        background-color: #ddd;
+    }
+
+    table thead th {
+        border-top: 0px !important;
+    }
+    th {
+        text-align: left;
+    }
+    th {
+        display: table-cell;
+        vertical-align: inherit;
+        font-weight: bold;
+        text-align: -internal-center;
+    }
+
+    .table-responsive a.cl-success {
+        background: #0fb76b;
+        color: #ffffff;
+        border-radius: 40px;
+        
+    }
+        .table-responsive a.cl-danger {
+            background: #f21136;
+            color: #ffffff;
+            border-radius: 40px;
+           
+        }
+        .fa.fa-edit {
+            width: 35px;
+            height: 35px;
+            line-height: 34px;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #dce1e6;
+            transition: all ease 0.4s;
+        }
+        .fa.fa-trash-o {
+            width: 35px;
+            height: 35px;
+            line-height: 34px;
+            text-align: center;
+            border-radius: 50%;
+            border: 1px solid #dce1e6;
+            transition: all ease 0.4s;
+        }
+        .fa {
+            display: inline-block;
+            font: normal normal normal 14px/1 FontAwesome;
+            font-size: inherit;
+            text-rendering: auto;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        .table.table tr td a i {
+            padding-right: 0;
+        }
+
+        table{
+            border: 1px solid #ddd;
+            width: 95%;
+            margin-left: 30px;
+        }
+        
+        .center {
+            text-align: center;
+          }
+          .pagination {
+            margin: 100px;
+            display: inline-block;
+          }
+           
+          .pagination a {
+            color: black;
+           
+            padding: 8px 16px;
+            text-decoration: none;
+            
+          }
+           
+          .pagination a.active {
+            background-color: #4caf50;
+            color: white;
+            border-radius: 50%;
+            margin: 5px;
+            
+          }
+           
+          .pagination a:hover:not(.active) {
+            background-color: #4caf50;
+            color: white;
+            border-radius: 50%;
+            margin: 5px;
+            
+          }
+
+          .section {
+            background-color: rgb(16, 117, 16);
+            padding: 100px;
+            color: white;
+          }
+          .section h1 {
+            color: white;
+            text-align: center;
+          }
+          .section p {
+            text-align: center;
+          }
+          .place input[type="text"] {
+            width: 50%;
+            align-items: center;
+            justify-content: center;
+            margin-left: 10%;
+            padding: 15px;
+            border-radius: 0.5rem;
+            border: 5px solid rgb(19, 230, 82);
+          }
+          .place i {
+            position: absolute;
+          }
+          .place i {
+            margin-left: 130px;
+            margin-top: 20px;
+            background-color: #b1e6b1;
+          }
+          .place1 {
+            position: center;
+          }
+          .icon {
+            padding: 10px;
+            min-width: 40px;
+          }
+          .subscribe button {
+            position: absolute;
+            
+          
+            background-color: rgb(16, 117, 16);
+            color: white;
+          }
+
+
+
+        
+        
+        
+        

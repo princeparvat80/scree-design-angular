@@ -8,6 +8,7 @@ import { ContactSectionComponent } from './contact-section/contact-section.compo
 import { EmployerComponent } from './employer/employer.component';
 import { ProfilesettingComponent } from './profilesetting/profilesetting.component';
 import { CandidateComponent } from './candidate/candidate.component';
+import { ManageJobsComponent } from './manage-jobs/manage-jobs.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { CandidateComponent } from './candidate/candidate.component';
     ContactSectionComponent,
     EmployerComponent,
     ProfilesettingComponent,
-    CandidateComponent
+    CandidateComponent,
+    ManageJobsComponent
   ],
   imports: [
     BrowserModule,
